@@ -24,4 +24,5 @@ jobs:
     - name: Test with tox
       run: |
         pip install .[test]
+        pip install tox
         tox
